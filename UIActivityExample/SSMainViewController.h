@@ -7,9 +7,12 @@
 //
 
 #import "SSFlipsideViewController.h"
+#import "SSActivityViewController.h"
+@interface SSMainViewController : UIViewController <SSFlipsideViewControllerDelegate, SSActivityControllerDelegate>
 
-@interface SSMainViewController : UIViewController <SSFlipsideViewControllerDelegate>
+@property (nonatomic, strong) SSActivityViewController *activityController;
 
 - (IBAction)showInfo:(id)sender;
+- (IBAction)activity:(id)sender;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "SSMainViewController.h"
-
+#import "SSActivityViewController.h"
 @interface SSMainViewController ()
 
 @end
@@ -39,6 +39,23 @@
     controller.delegate = self;
     controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:controller animated:YES completion:nil];
+}
+
+- (IBAction)activity:(id)sender
+{
+    [self setActivityController:[[SSActivityViewController alloc] initWithNibName:@"SSActivityViewController" bundle:nil]];
+    [[self activityController] setDelegate:self];
+    [[self activityController] getShare];
+}
+
+- (void)shareSelected:(ActivityType)activityType withController:(SSActivityViewController *)controller
+{
+    [self setActivityController:nil];
+}
+
+- (void)shareCancelled:(SSActivityViewController *)controller
+{
+    [self setActivityController:nil];
 }
 
 @end

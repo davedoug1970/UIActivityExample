@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5568AA621611224400BE948D /* UIAlertSheetBlackCancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5568AA611611224400BE948D /* UIAlertSheetBlackCancelButton.png */; };
+		5568AA6516113B4D00BE948D /* UIAlertSheetBlackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5568AA6416113B4D00BE948D /* UIAlertSheetBlackBackground.png */; };
 		55EF3A6C1610AAB4007F9C9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EF3A6B1610AAB4007F9C9E /* UIKit.framework */; };
 		55EF3A6E1610AAB4007F9C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EF3A6D1610AAB4007F9C9E /* Foundation.framework */; };
 		55EF3A701610AAB4007F9C9E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EF3A6F1610AAB4007F9C9E /* CoreGraphics.framework */; };
@@ -20,9 +22,19 @@
 		55EF3A881610AAB4007F9C9E /* SSFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EF3A871610AAB4007F9C9E /* SSFlipsideViewController.m */; };
 		55EF3A8B1610AAB4007F9C9E /* SSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3A891610AAB4007F9C9E /* SSMainViewController.xib */; };
 		55EF3A8E1610AAB4007F9C9E /* SSFlipsideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3A8C1610AAB4007F9C9E /* SSFlipsideViewController.xib */; };
+		55EF3A9F1610B5C9007F9C9E /* SSActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EF3A9D1610B5C9007F9C9E /* SSActivityViewController.m */; };
+		55EF3AA01610B5C9007F9C9E /* SSActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3A9E1610B5C9007F9C9E /* SSActivityViewController.xib */; };
+		55EF3AA41610C52D007F9C9E /* UIAlertSheetBlackBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AA31610C52D007F9C9E /* UIAlertSheetBlackBackground@2x.png */; };
+		55EF3AA61610F0A7007F9C9E /* UIActivityMail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AA51610F0A7007F9C9E /* UIActivityMail@2x.png */; };
+		55EF3AA81610F0B3007F9C9E /* UIActivityTwitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AA71610F0B3007F9C9E /* UIActivityTwitter@2x.png */; };
+		55EF3AAA1610F0D8007F9C9E /* UIActivityFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AA91610F0D8007F9C9E /* UIActivityFacebook@2x.png */; };
+		55EF3AAE1610F39B007F9C9E /* smsicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AAD1610F39B007F9C9E /* smsicon@2x.png */; };
+		55EF3AB216110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55EF3AB116110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5568AA611611224400BE948D /* UIAlertSheetBlackCancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertSheetBlackCancelButton.png; sourceTree = "<group>"; };
+		5568AA6416113B4D00BE948D /* UIAlertSheetBlackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertSheetBlackBackground.png; sourceTree = "<group>"; };
 		55EF3A671610AAB4007F9C9E /* UIActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EF3A6B1610AAB4007F9C9E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		55EF3A6D1610AAB4007F9C9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +54,15 @@
 		55EF3A871610AAB4007F9C9E /* SSFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSFlipsideViewController.m; sourceTree = "<group>"; };
 		55EF3A8A1610AAB4007F9C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSMainViewController.xib; sourceTree = "<group>"; };
 		55EF3A8D1610AAB4007F9C9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSFlipsideViewController.xib; sourceTree = "<group>"; };
+		55EF3A9C1610B5C9007F9C9E /* SSActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSActivityViewController.h; sourceTree = "<group>"; };
+		55EF3A9D1610B5C9007F9C9E /* SSActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSActivityViewController.m; sourceTree = "<group>"; };
+		55EF3A9E1610B5C9007F9C9E /* SSActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSActivityViewController.xib; sourceTree = "<group>"; };
+		55EF3AA31610C52D007F9C9E /* UIAlertSheetBlackBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIAlertSheetBlackBackground@2x.png"; sourceTree = "<group>"; };
+		55EF3AA51610F0A7007F9C9E /* UIActivityMail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityMail@2x.png"; sourceTree = "<group>"; };
+		55EF3AA71610F0B3007F9C9E /* UIActivityTwitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityTwitter@2x.png"; sourceTree = "<group>"; };
+		55EF3AA91610F0D8007F9C9E /* UIActivityFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIActivityFacebook@2x.png"; sourceTree = "<group>"; };
+		55EF3AAD1610F39B007F9C9E /* smsicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smsicon@2x.png"; sourceTree = "<group>"; };
+		55EF3AB116110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UIAlertSheetBlackCancelButton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +109,14 @@
 		55EF3A711610AAB4007F9C9E /* UIActivityExample */ = {
 			isa = PBXGroup;
 			children = (
+				55EF3AAD1610F39B007F9C9E /* smsicon@2x.png */,
+				5568AA6416113B4D00BE948D /* UIAlertSheetBlackBackground.png */,
+				55EF3AA31610C52D007F9C9E /* UIAlertSheetBlackBackground@2x.png */,
+				5568AA611611224400BE948D /* UIAlertSheetBlackCancelButton.png */,
+				55EF3AB116110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png */,
+				55EF3AA51610F0A7007F9C9E /* UIActivityMail@2x.png */,
+				55EF3AA71610F0B3007F9C9E /* UIActivityTwitter@2x.png */,
+				55EF3AA91610F0D8007F9C9E /* UIActivityFacebook@2x.png */,
 				55EF3A7A1610AAB4007F9C9E /* SSAppDelegate.h */,
 				55EF3A7B1610AAB4007F9C9E /* SSAppDelegate.m */,
 				55EF3A831610AAB4007F9C9E /* SSMainViewController.h */,
@@ -96,6 +125,9 @@
 				55EF3A871610AAB4007F9C9E /* SSFlipsideViewController.m */,
 				55EF3A891610AAB4007F9C9E /* SSMainViewController.xib */,
 				55EF3A8C1610AAB4007F9C9E /* SSFlipsideViewController.xib */,
+				55EF3A9C1610B5C9007F9C9E /* SSActivityViewController.h */,
+				55EF3A9D1610B5C9007F9C9E /* SSActivityViewController.m */,
+				55EF3A9E1610B5C9007F9C9E /* SSActivityViewController.xib */,
 				55EF3A721610AAB4007F9C9E /* Supporting Files */,
 			);
 			path = UIActivityExample;
@@ -173,6 +205,15 @@
 				55EF3A821610AAB4007F9C9E /* Default-568h@2x.png in Resources */,
 				55EF3A8B1610AAB4007F9C9E /* SSMainViewController.xib in Resources */,
 				55EF3A8E1610AAB4007F9C9E /* SSFlipsideViewController.xib in Resources */,
+				55EF3AA01610B5C9007F9C9E /* SSActivityViewController.xib in Resources */,
+				55EF3AA41610C52D007F9C9E /* UIAlertSheetBlackBackground@2x.png in Resources */,
+				55EF3AA61610F0A7007F9C9E /* UIActivityMail@2x.png in Resources */,
+				55EF3AA81610F0B3007F9C9E /* UIActivityTwitter@2x.png in Resources */,
+				55EF3AAA1610F0D8007F9C9E /* UIActivityFacebook@2x.png in Resources */,
+				55EF3AAE1610F39B007F9C9E /* smsicon@2x.png in Resources */,
+				55EF3AB216110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png in Resources */,
+				5568AA621611224400BE948D /* UIAlertSheetBlackCancelButton.png in Resources */,
+				5568AA6516113B4D00BE948D /* UIAlertSheetBlackBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +228,7 @@
 				55EF3A7C1610AAB4007F9C9E /* SSAppDelegate.m in Sources */,
 				55EF3A851610AAB4007F9C9E /* SSMainViewController.m in Sources */,
 				55EF3A881610AAB4007F9C9E /* SSFlipsideViewController.m in Sources */,
+				55EF3A9F1610B5C9007F9C9E /* SSActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +352,7 @@
 				55EF3A931610AAB4007F9C9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
