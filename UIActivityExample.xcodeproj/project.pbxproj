@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5565377F16124C3A00823DB2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5565377D16124C3A00823DB2 /* Icon.png */; };
+		5565378016124C3A00823DB2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5565377E16124C3A00823DB2 /* Icon@2x.png */; };
+		5565378916124E9800823DB2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5565378816124E9800823DB2 /* Default.png */; };
+		5565378B16124E9F00823DB2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5565378A16124E9F00823DB2 /* Default@2x.png */; };
+		5565378D16124EA400823DB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5565378C16124EA400823DB2 /* Default-568h@2x.png */; };
 		5568AA621611224400BE948D /* UIAlertSheetBlackCancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5568AA611611224400BE948D /* UIAlertSheetBlackCancelButton.png */; };
 		5568AA6516113B4D00BE948D /* UIAlertSheetBlackBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5568AA6416113B4D00BE948D /* UIAlertSheetBlackBackground.png */; };
 		55EF3A6C1610AAB4007F9C9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55EF3A6B1610AAB4007F9C9E /* UIKit.framework */; };
@@ -33,6 +38,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5565377D16124C3A00823DB2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5565377E16124C3A00823DB2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		5565378816124E9800823DB2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5565378A16124E9F00823DB2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5565378C16124EA400823DB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5568AA611611224400BE948D /* UIAlertSheetBlackCancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertSheetBlackCancelButton.png; sourceTree = "<group>"; };
 		5568AA6416113B4D00BE948D /* UIAlertSheetBlackBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIAlertSheetBlackBackground.png; sourceTree = "<group>"; };
 		55EF3A671610AAB4007F9C9E /* UIActivityExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +92,11 @@
 		55EF3A5C1610AAB4007F9C9E = {
 			isa = PBXGroup;
 			children = (
+				5565378C16124EA400823DB2 /* Default-568h@2x.png */,
+				5565378A16124E9F00823DB2 /* Default@2x.png */,
+				5565378816124E9800823DB2 /* Default.png */,
+				5565377D16124C3A00823DB2 /* Icon.png */,
+				5565377E16124C3A00823DB2 /* Icon@2x.png */,
 				55EF3A711610AAB4007F9C9E /* UIActivityExample */,
 				55EF3A6A1610AAB4007F9C9E /* Frameworks */,
 				55EF3A681610AAB4007F9C9E /* Products */,
@@ -214,6 +229,11 @@
 				55EF3AB216110784007F9C9E /* UIAlertSheetBlackCancelButton@2x.png in Resources */,
 				5568AA621611224400BE948D /* UIAlertSheetBlackCancelButton.png in Resources */,
 				5568AA6516113B4D00BE948D /* UIAlertSheetBlackBackground.png in Resources */,
+				5565377F16124C3A00823DB2 /* Icon.png in Resources */,
+				5565378016124C3A00823DB2 /* Icon@2x.png in Resources */,
+				5565378916124E9800823DB2 /* Default.png in Resources */,
+				5565378B16124E9F00823DB2 /* Default@2x.png in Resources */,
+				5565378D16124EA400823DB2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
